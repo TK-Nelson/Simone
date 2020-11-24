@@ -1,4 +1,10 @@
+// Standardizations
+@import './sass/constants/Standards.scss';
 
-@import './sass/leftNav.scss';
-@import './sass/appWrapper.scss';
-@import './sass/rightContent.scss';
+// App Layout
+@import './sass/Layout/leftNav.scss';
+@import './sass/Layout/appWrapper.scss';
+@import './sass/Layout/rightContent.scss';
+
+//Components
+@import './sass/components/Tasks.scss';

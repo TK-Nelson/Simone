@@ -1,0 +1,39 @@
+//Colors
+
+$white: #fff;
+
+//Charcoal
+$charcoal: #333333;
+$charcoal-dark: #131313;
+$charcoal-light: #464646;
+$charcoal-lighter: #595959;
+$charcoal-lightest: #6c6c6c;
+
+
+
+// Spacing
+$space-xs: .125rem;
+$space-s: .25rem;
+$space-m: .5rem;
+$space-lg: 1rem;
+$space-xl: 1.5rem;
+$space-xxl: 2rem;
+
+// Typography
+
+h1 {
+  font-size: $space-xl;
+}
+
+h2 {
+  margin: 0;
+  font-size: $space-xl;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  color: $white;
+  margin-bottom: $space-m;
+}
+
+p {
+  font-size: $space-m;
+}

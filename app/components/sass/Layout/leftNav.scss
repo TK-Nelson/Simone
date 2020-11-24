@@ -1,0 +1,35 @@
+.leftNav{
+  height: 100vh;
+  background-color: $charcoal;
+
+  & div:first-child > a > i {
+    padding: 0 $space-m $space-m;
+  }
+
+  & div > a > i {
+    padding: $space-m;
+  }
+}
+
+.icon {
+  display: block;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin:16px 0;
+
+  & * {
+    padding: 0 8px;
+  }
+
+  &_profit {
+    background: url('../assets/profit.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &_Tasklis {
+    background: url('../assets/Tasklis.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
