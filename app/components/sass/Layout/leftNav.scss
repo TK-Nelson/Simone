@@ -2,12 +2,12 @@
   height: 100vh;
   background-color: $charcoal;
 
-  & div:first-child > a > i {
-    padding: 0 $space-m $space-m;
-  }
-
   & div > a > i {
     padding: $space-m;
+  }
+
+  & div:first-child > a > i {
+    padding: 0 $space-m $space-m;
   }
 }
 

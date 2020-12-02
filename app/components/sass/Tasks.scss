@@ -1,0 +1,33 @@
+// Placeholder
+.Tasks {
+  box-sizing: border-box;
+  border-radius: $space-m;
+
+  &Rows {
+    box-shadow: 0 0 $space-m 0 rgba(0,0,0, 0.10);
+    border-radius: $space-m;
+
+
+    &__header {
+      background-color: $quartz-light;
+      border-radius: $space-m $space-m 0 0;
+      padding: $space-m $space-lg $space-lg;
+      margin: 0;
+      display: flex;
+      align-items: center;
+
+      & span {
+        width: $space-xl;
+        text-align: center;
+      }
+    }
+
+    &__body {
+      background-color: $quartz-lightest;
+      padding: $space-m $space-lg $space-lg;
+      margin: 0;
+            border-radius: 0 0 $space-m $space-m;
+    }
+  }
+
+}

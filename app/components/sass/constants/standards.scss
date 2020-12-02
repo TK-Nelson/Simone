@@ -9,7 +9,12 @@ $charcoal-light: #464646;
 $charcoal-lighter: #595959;
 $charcoal-lightest: #6c6c6c;
 
-
+// Quartz
+$quartz: #D1D1D1;
+$quartz-dark: #ACACAC;
+$quartz-light: #E3E3E3;
+$quartz-lighter: #EEEEEE;
+$quartz-lightest: #F7F7F7;
 
 // Spacing
 $space-xs: .125rem;
@@ -26,14 +31,23 @@ h1 {
 }
 
 h2 {
-  margin: 0;
+  margin: $space-m 0;
+  margin-bottom: $space-m;
   font-size: $space-xl;
   font-weight: bold;
   letter-spacing: -0.025em;
-  color: $white;
-  margin-bottom: $space-m;
+  color: $charcoal-dark;
+}
+
+h3 {
+  margin: $space-m 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  color: $charcoal-dark;
 }
 
 p {
-  font-size: $space-m;
+  font-size: $space-lg;
+  margin:  $space-m 0;
 }

@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import routes from './constants/routes.json';
 import App from './containers/App';
 import TasksPage from './containers/TasksPage';
-
+import User from './components/User';
 
 // Lazily load routes and code split with webpack
 const LazyCounterPage = React.lazy(() =>
@@ -17,10 +17,9 @@ const CounterPage = (props: Record<string, any>) => (
   </React.Suspense>
 );
 
-
 export default function Routes() {
   return (
-    <App>
+    <App user= {User}>
       <Switch>
         <Route path={routes.COUNTER} component={CounterPage} />
         <Route path={routes.TASKS} component={TasksPage} />
